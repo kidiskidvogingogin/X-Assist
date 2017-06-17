@@ -1,0 +1,59 @@
+﻿<Page x:ConnectionId='1'   x:Class="Crossword_Completer.MainPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="using:Crossword_Completer"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="using:Windows.UI.Interactivity"
+        mc:Ignorable="d"                               >
+    <Hub x:Name="MainHub">
+        <Hub.Header>
+        <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="tboWord" 
+                         VerticalAlignment="Stretch" 
+                         Margin="0,0,30,0" 
+                         TextWrapping="NoWrap" FontSize="20" MaxLength="25" FontFamily="Segoe UI" TextAlignment="Left"
+                         Text="{Binding Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         Height="Auto"
+                         MinWidth="250"
+                         PlaceholderText="Type known letters here" />
+                <TextBlock x:Name="miscInfo"
+                           Height="Auto"
+                           VerticalAlignment="Center">
+                	<Run Text="{Binding Length, UpdateSourceTrigger=PropertyChanged}"/>
+                	<Run Text="&#x9;"/>
+                	<Run Text="{Binding RecordCount, UpdateSourceTrigger=PropertyChanged}"/>
+                </TextBlock>
+            </StackPanel>
+        </Hub.Header>
+        <HubSection x:Name="WordList" Header="Word List" Width="300"
+                    HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+            <DataTemplate>
+                <ListBox x:ConnectionId='2' x:Name="lboWords" 
+                         VerticalAlignment="Stretch"
+                         HorizontalAlignment="Stretch"
+                         ItemsSource="{Binding WordList}"
+                         SelectedItem="{Binding SelectedItem,Mode=TwoWay}" 
+                         Style="{StaticResource ListBoxStyle}"                                             >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Word}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </DataTemplate>
+        </HubSection>
+        <HubSection x:Name="Definition" Header="Definition" 
+                    VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
+            <DataTemplate>
+                <WebView x:Name="wvDefinition" 
+                         VerticalAlignment="Stretch"
+                         HorizontalAlignment="Stretch"
+                         local:WebViewExtensions.UriSource="{Binding SelectedItem.Link, UpdateSourceTrigger=PropertyChanged}"/>
+            </DataTemplate>
+        </HubSection>
+    </Hub>
+</Page>
+

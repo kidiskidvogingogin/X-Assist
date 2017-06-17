@@ -1,0 +1,167 @@
+﻿<Page   x:Class="Crossword_Completer.MainPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="using:Crossword_Completer"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="using:Windows.UI.Interactivity"
+        mc:Ignorable="d">
+    <VisualStateManager.VisualStateGroups>
+        <VisualStateGroup>
+            <VisualState x:Name="DefaultLayout">
+
+            </VisualState>
+            <!--Page is taller than it is wide or <= 500px-->
+            <VisualState x:Name="Narrow">
+
+            </VisualState>
+            <!--Page is wider than tall or > 500px-->
+            <VisualState x:Name="Wide">
+                <Storyboard>
+
+                </Storyboard>
+            </VisualState>
+        </VisualStateGroup>
+    </VisualStateManager.VisualStateGroups>
+    <Grid HorizontalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Height="Auto" Grid.Row="0" Margin="10,10,10,10">
+            <TextBox x:Name="tboWord" 
+                         VerticalAlignment="Center" 
+                         Margin="0,0,30,0" 
+                         TextWrapping="NoWrap" FontSize="20" MaxLength="25" FontFamily="Segoe UI" TextAlignment="Left"
+                         Text="{Binding Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         Height="Auto"
+                         MinWidth="250"
+                         PlaceholderText="Type known letters here" />
+            <TextBlock x:Name="miscInfo"
+                           Height="Auto"
+                           VerticalAlignment="Center">
+                	<Run Text="{Binding Length, UpdateSourceTrigger=PropertyChanged}"/>
+                	<Run Text="&#x9;"/>
+                	<Run Text="{Binding RecordCount, UpdateSourceTrigger=PropertyChanged}"/>
+            </TextBlock>
+        </StackPanel>
+        <Grid x:Name="MainContainer"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="320" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.Transitions>
+                <TransitionCollection>
+                    <RepositionThemeTransition />
+                </TransitionCollection>
+            </Grid.Transitions>
+            <ListBox x:Name="lboWords"
+                     Grid.Column="0"
+                     VerticalAlignment="Stretch"
+                     HorizontalAlignment="Left"
+                     ItemsSource="{Binding WordList}"
+                     SelectedItem="{Binding SelectedItem,Mode=TwoWay}" 
+                     Style="{StaticResource ListBoxStyle}" >
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Word}" FontSize="20" FontFamily="Segoe UI"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <WebView x:Name="wvDefinition" 
+                     Grid.Column="1"
+                     VerticalAlignment="Stretch"
+                     HorizontalAlignment="Stretch"
+                     MinWidth="320"
+                     local:WebViewExtensions.UriSource="{Binding SelectedItem.Link, UpdateSourceTrigger=PropertyChanged}">
+                <WebView.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition />
+                    </TransitionCollection>
+                </WebView.Transitions>
+            </WebView>
+
+            <Grid Grid.Column="2" x:Name="ManageControlContainer" 
+                  Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                  Width="0">
+                <Grid.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition />
+                    </TransitionCollection>
+                </Grid.Transitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="75"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <!-- Close button and page title -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="75"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:ConnectionId='1' x:Name="backButton" Margin="10,10,10,10" 
+                            VerticalAlignment="Top" Content="X" Grid.Column="1"
+                            HorizontalAlignment="Right" BorderThickness="0"                            />
+                    <TextBlock x:Name="pageTitle" Text="Word Management" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="0" 
+                               FontSize="30" TextWrapping="WrapWholeWords" VerticalAlignment="Center"
+                               IsHitTestVisible="false" Margin="10,0,10,0"/>
+                    <!--<local:WordManagement x:Name="Manage"  Grid.Column="2" Width="0" 
+                                          HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />-->
+                </Grid>
+            </Grid>
+        </Grid>
+        <local:AddWordFlyout x:Name="AddFlyout" Grid.Row="1" Opacity="1"
+                             VerticalAlignment="Bottom" HorizontalAlignment="Stretch" 
+                             Height="125" Visibility="Collapsed" />
+        <local:DownloadProgressFlyout x:Name="DownloadFlyout" Grid.Row="1"
+                                      VerticalAlignment="Bottom" HorizontalAlignment="Stretch"
+                                      Height="125" Visibility="Collapsed" />
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar x:ConnectionId='2' x:Name="cbOptionsBottom" IsOpen="True" IsSticky="True"                                 >
+            <AppBarButton x:Name="btnTheme" Label="Theme" >
+                <AppBarButton.Icon>
+                    <BitmapIcon UriSource="ms-appx:///Assets/ic_brightness_3_white_24dp.png"/>
+                </AppBarButton.Icon>
+                <AppBarButton.Flyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem>
+                            <MenuFlyoutItem.Template>
+                                <ControlTemplate>
+                                    <Grid HorizontalAlignment="Stretch" MinWidth="150">
+                                        <ToggleSwitch IsOn="{Binding DarkTheme, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                                      Header="Theme"
+                                                      OnContent="Dark"
+                                                      OffContent="Light"/>
+                                    </Grid>
+                                </ControlTemplate>
+                            </MenuFlyoutItem.Template>
+                        </MenuFlyoutItem>
+                    </MenuFlyout>
+                </AppBarButton.Flyout>
+            </AppBarButton>
+            <AppBarButton x:Name="btnHelp" Label="Help" Command="{Binding HelpCommand}" Icon="Help" />
+            <AppBarButton x:Name="btnManage" Label="Manage Words" Icon="Add">
+                <AppBarButton.Flyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem x:ConnectionId='3' Text="Add New Word"                   />
+                        <MenuFlyoutItem x:ConnectionId='4' Text="Update Word List" Command="{Binding UpdateCommand}"                       />
+                        <MenuFlyoutItem x:ConnectionId='5' Text="Manage Words" Command="{Binding ManageCommand}"                       />
+                    </MenuFlyout>
+                </AppBarButton.Flyout>
+            </AppBarButton>
+            <AppBarButton x:Name="btnMore" Label="More" Icon="More">
+                <AppBarButton.Flyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem Text="Contact Author" Command="{Binding ContactCommand}"/>
+                        <MenuFlyoutItem Text="Submit New Words" Command="{Binding SubmitCommand}"/>
+                    </MenuFlyout>
+                </AppBarButton.Flyout>
+            </AppBarButton>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
+

@@ -1,0 +1,115 @@
+﻿<Page
+    x:Class="Crossword_Completer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Crossword_Completer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" SizeChanged="MainPage_SizeChanged">
+    <Hub x:Name="MainHub">
+        <Hub.Header>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" x:Name="North"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Vertical" Grid.Row="1" x:Name="NorthSP">
+                    <TextBox x:Name="tboWord" 
+                         VerticalAlignment="Center" 
+                         Margin="0,0,30,0" 
+                         TextWrapping="NoWrap" FontSize="15" MaxLength="25" FontFamily="Segoe UI" TextAlignment="Left"
+                         Text="{Binding Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         Height="Auto"
+                         MinWidth="250"
+                         PlaceholderText="Type known letters here" />
+                    <TextBlock x:Name="miscInfo"
+                           Height="Auto"
+                           VerticalAlignment="Center">
+                	<Run Text="{Binding Length, UpdateSourceTrigger=PropertyChanged}"/>
+                	<Run Text="&#x9;"/>
+                	<Run Text="{Binding RecordCount, UpdateSourceTrigger=PropertyChanged}"/>
+                    </TextBlock>
+                </StackPanel>
+            </Grid>
+        </Hub.Header>
+        <HubSection x:Name="WordList" Header="Word List" Width="250"
+                    HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+            <DataTemplate>
+                <ListBox x:Name="lboWords" 
+                         VerticalAlignment="Stretch"
+                         HorizontalAlignment="Stretch"
+                         ItemsSource="{Binding WordList}"
+                         SelectedItem="{Binding SelectedItem,Mode=TwoWay}" 
+                         Style="{StaticResource ListBoxStyle}" SelectionChanged="lboWords_SelectionChanged">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Word}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </DataTemplate>
+        </HubSection>
+        <HubSection x:Name="Definition" Header="Definition" 
+                    VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
+            <DataTemplate>
+                <WebView x:Name="wvDefinition" 
+                         VerticalAlignment="Stretch"
+                         HorizontalAlignment="Stretch"
+                         local:WebViewExtensions.UriSource="{Binding SelectedItem.Link, UpdateSourceTrigger=PropertyChanged}"/>
+            </DataTemplate>
+        </HubSection>
+    </Hub>
+
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" x:Name="West"/>
+            <ColumnDefinition Width="*" x:Name="East"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="miscInfo" 
+                   Grid.Column="0" Grid.Row="0"
+                   Margin="15,15,15,15">
+            <Run Text="{Binding Length, UpdateSourceTrigger=PropertyChanged}"/>
+            <Run Text="&#x09;"/>
+            <Run Text="{Binding RecordCount, UpdateSourceTrigger=PropertyChanged}"/>
+        </TextBlock>
+        <TextBox x:Name="tboWord" 
+                 Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                 HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                 Margin="15,15,15,15" 
+                 TextWrapping="NoWrap" FontSize="15" MaxLength="25" FontFamily="Segoe UI" TextAlignment="Left"
+                 Text="{Binding Word, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 Padding="8"
+                 MaxHeight="45"
+                 PlaceholderText="Type known letters here" GotFocus="tboWord_GotFocus"/>
+        <ListBox x:Name="lboWords" 
+                 Grid.Row="2" Grid.Column="0"
+                 HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                 Height="Auto" 
+                 Margin="30,0,15,0"
+                 ItemsSource="{Binding WordList}"
+                 SelectedItem="{Binding SelectedItem,Mode=TwoWay}" Style="{StaticResource ListBoxStyle}" GotFocus="lboWords_GotFocus">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Word}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <WebView x:Name="wvDefinition" 
+                 Grid.Column="1" Grid.Row="3" Grid.RowSpan="3" 
+                 HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                 Margin="15,0,0,0" 
+                 local:WebViewExtensions.UriSource="{Binding SelectedItem.Link, UpdateSourceTrigger=PropertyChanged}" GotFocus="wvDefinition_GotFocus"/>
+    </Grid>-->
+</Page>

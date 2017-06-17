@@ -1,0 +1,2 @@
+MainPackage=C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\bin\x86\Release\Crossword Completer.Windows_1.1.0.10_Bundle\Crossword Completer.Windows_1.1.0.10_x86.appx
+SymbolPackage=C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\AppPackages\Crossword Completer.Windows_1.1.0.10_Test\Crossword Completer.Windows_1.1.0.10_x86.appxsym

@@ -1,0 +1,34 @@
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\WordList.sqlite
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\App.xbf
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\MainPage.xbf
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\Crossword Completer.WindowsPhone.xr.xml
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\Crossword Completer.WindowsPhone.exe
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\Crossword Completer.WindowsPhone.pdb
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\resources.pri
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\AppxManifest.xml
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\Crossword Completer.WindowsPhone.build.appxrecipe
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\App.g.i.cs
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\App.g.cs
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\MainPage.g.i.cs
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\MainPage.g.cs
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\XamlTypeInfo.g.cs
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\App.xaml
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\MainPage.xaml
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\App.xbf
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\MainPage.xbf
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\XamlSaveStateFile.xml
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\Crossword Completer.WindowsPhone.exe
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\Crossword Completer.WindowsPhone.pdb
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\Crossword Completer.WindowsPhone.csproj.GenerateResource.Cache
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\priconfig.xml
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\priconfig.xml.intermediate
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\layout.resfiles
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\layout.resfiles.intermediate
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\resources.resfiles
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\resources.resfiles.intermediate
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\pri.resfiles
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\pri.resfiles.intermediate
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\qualifiers.txt
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\qualifiers.txt.intermediate
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\ProjectArchitectures.txt

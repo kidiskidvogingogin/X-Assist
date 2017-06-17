@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DAS_SKOGINVOGIN</Machine>
+    <WindowsUser>wpackard</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>78e0a0bf-be26-463c-ba96-d93eb4a01d6d</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\Crossword Completer.WindowsPhone.exe">
+      <PackagePath>Crossword Completer.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\SQLite.WP81\3.8.8.3\Redist\Retail\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\150x150.png">
+      <PackagePath>Assets\150x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\24x24.png">
+      <PackagePath>Assets\24x24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\30x30.png">
+      <PackagePath>Assets\30x30.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\310x150.png">
+      <PackagePath>Assets\310x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\310x310.png">
+      <PackagePath>Assets\310x310.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\50x50.png">
+      <PackagePath>Assets\50x50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\70x70.png">
+      <PackagePath>Assets\70x70.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\BadgeLogo.scale-240.png">
+      <PackagePath>Assets\BadgeLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\Splash Screen.png">
+      <PackagePath>Assets\Splash Screen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Shared\WordList.sqlite">
+      <PackagePath>WordList.sqlite</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\Crossword Completer.WindowsPhone.xr.xml">
+      <PackagePath>Crossword Completer.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.WindowsPhone\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Phone</Name>
+      <Version>12.0.30113.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Phone, MinVersion = 12.0.30113.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.12.00.Phone.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Phone</Name>
+      <Version>12.0.30113.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Phone, MinVersion = 12.0.30113.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.12.00.Phone.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DAS_SKOGINVOGIN</Machine>
+    <WindowsUser>wpackard</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>18824kidiskidvogingogin.X-Assist</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\obj\ARM\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>2564B6539E3202C0D1ADDAAA3988195A35C575D38C4312D56BA86162598026D8</RegisteredManifestChecksum>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\bin\ARM\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-21T05:05:23.141</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\bin\ARM\Release\Crossword Completer.Windows.exe">
+      <PackagePath>Crossword Completer.Windows.exe</PackagePath>
+      <Modified>2015-03-21T05:05:22.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\packages\Expression.Blend.Sdk.1.0.2\lib\netcore451\Windows.UI.Interactivity.dll">
+      <PackagePath>Windows.UI.Interactivity.dll</PackagePath>
+      <Modified>2015-03-13T02:22:06.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.8.8.3\Redist\Retail\ARM\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2015-03-12T01:10:58.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\150x150.png">
+      <PackagePath>Assets\150x150.png</PackagePath>
+      <Modified>2015-03-15T23:41:22.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\24x24.png">
+      <PackagePath>Assets\24x24.png</PackagePath>
+      <Modified>2015-03-15T23:41:22.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\30x30.png">
+      <PackagePath>Assets\30x30.png</PackagePath>
+      <Modified>2015-03-15T23:41:22.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\310x150.scale-100.png">
+      <PackagePath>Assets\310x150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T00:50:47.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\310x150.scale-140.png">
+      <PackagePath>Assets\310x150.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T00:49:55.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\310x150.scale-180.png">
+      <PackagePath>Assets\310x150.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:33:58.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\310x150.scale-80.png">
+      <PackagePath>Assets\310x150.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:35:03.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\310x310.scale-100.png">
+      <PackagePath>Assets\310x310.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-15T23:41:22.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\310x310.scale-140.png">
+      <PackagePath>Assets\310x310.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:29:37.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\310x310.scale-180.png">
+      <PackagePath>Assets\310x310.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:28:54.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\310x310.scale-80.png">
+      <PackagePath>Assets\310x310.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:31:03.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\50x50.png">
+      <PackagePath>Assets\50x50.png</PackagePath>
+      <Modified>2015-03-15T23:41:22.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\70x70.scale-100.png">
+      <PackagePath>Assets\70x70.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-15T23:41:22.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\70x70.scale-140.png">
+      <PackagePath>Assets\70x70.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:38:42.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\70x70.scale-180.png">
+      <PackagePath>Assets\70x70.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:36:28.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\70x70.scale-80.png">
+      <PackagePath>Assets\70x70.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:37:50.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <Modified>2015-03-15T23:33:41.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\BadgeLogo.scale-140.png">
+      <PackagePath>Assets\BadgeLogo.scale-140.png</PackagePath>
+      <Modified>2015-03-16T01:19:27.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\BadgeLogo.scale-180.png">
+      <PackagePath>Assets\BadgeLogo.scale-180.png</PackagePath>
+      <Modified>2015-03-16T01:18:59.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T00:12:29.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T00:52:02.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:32:13.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T00:30:35.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-15T23:41:22.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:23:45.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:22:42.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-15T23:33:41.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\SmallLogo.targetsize-16.png">
+      <PackagePath>Assets\SmallLogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:24:45.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\SmallLogo.targetsize-256.png">
+      <PackagePath>Assets\SmallLogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:25:44.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\SmallLogo.targetsize-32.png">
+      <PackagePath>Assets\SmallLogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:26:56.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\SmallLogo.targetsize-48.png">
+      <PackagePath>Assets\SmallLogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:23:11.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:16:57.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:16:05.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:15:11.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T00:09:34.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-15T23:31:56.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-16T01:20:43.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Shared\WordList.sqlite">
+      <PackagePath>WordList.sqlite</PackagePath>
+      <Modified>2015-03-21T04:01:29.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\bin\ARM\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-03-21T05:05:22.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\bin\ARM\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-03-21T05:05:22.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\bin\ARM\Release\Crossword Completer.Windows.xr.xml">
+      <PackagePath>Crossword Completer.Windows.xr.xml</PackagePath>
+      <Modified>2015-03-19T02:00:03.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wpackard\Documents\Visual Studio 2013\Projects\Crossword Completer\Crossword Completer\Crossword Completer.Windows\bin\ARM\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-03-21T05:05:23.047</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

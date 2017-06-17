@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="18824kidiskidvogingogin.X-Assist" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>80, 100</Scale>
+			<TargetSize>48, 32, 256, 16</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Crossword Completer.Windows.xr.xml" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Crossword%20Completer.Windows.xr.xml">
+				<Candidate type="Path">
+					<Value>Crossword Completer.Windows.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WordList.sqlite" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/WordList.sqlite">
+				<Candidate type="Path">
+					<Value>WordList.sqlite</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="150x150.png" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Assets/150x150.png">
+					<Candidate type="Path">
+						<Value>Assets\150x150.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="24x24.png" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Assets/24x24.png">
+					<Candidate type="Path">
+						<Value>Assets\24x24.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="30x30.png" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Assets/30x30.png">
+					<Candidate type="Path">
+						<Value>Assets\30x30.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="310x150.png" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Assets/310x150.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\310x150.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\310x150.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="310x310.png" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Assets/310x310.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\310x310.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\310x310.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="50x50.png" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Assets/50x50.png">
+					<Candidate type="Path">
+						<Value>Assets\50x50.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="70x70.png" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Assets/70x70.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\70x70.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\70x70.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Assets/BadgeLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\BadgeLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://18824kidiskidvogingogin.X-Assist/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
